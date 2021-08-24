@@ -1,11 +1,11 @@
 # Privacy Policy
-This project is a privacy policy for my Carmel Ministries App.
+## This project is a privacy policy for my Carmel Ministries App.
 
 https://daniel-raj.github.io/Pp/
 
 
-Avaliable in
+# Avaliable in Android
+https://play.google.com/store/apps/details?id=io.cordova.myapp9bb41d
 
-Android( https://play.google.com/store/apps/details?id=io.cordova.myapp9bb41d )
-
-Windows( https://www.microsoft.com/en-in/p/carmel-ministries/9p2chmncmr5b?activetab=pivot:overviewtab )
+# Windows
+https://www.microsoft.com/en-in/p/carmel-ministries/9p2chmncmr5b?activetab=pivot:overviewtab
