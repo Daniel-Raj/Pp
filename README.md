@@ -1,4 +1,4 @@
-# PRIVACY POLICY 
+# Privacy Policy
 This project is a privacy policy for my Carmel Ministries App.
 
 https://daniel-raj.github.io/Pp/
