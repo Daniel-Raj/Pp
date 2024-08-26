@@ -44,9 +44,12 @@
         }
 
         .heading {
-            font-size: 25px;
-            letter-spacing: -0.25px;
+            font-size: 20px;
+            font-weight: 600;
             color: #008000;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         }
 
         .version {
@@ -54,14 +57,6 @@
             padding: 10px;
             border-radius: 15px;
             color: white;
-        }
-
-        .sub-heading {
-            margin-top: 10px;
-            font-weight: bold;
-            padding-bottom: 10px;
-            margin-bottom: 10px;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         }
 
         #contact-info,
@@ -73,6 +68,11 @@
             text-align: center;
             padding: 20px;
         }
+
+        #update-info {
+            font-size: small;
+            letter-spacing: -.25px;
+        }
     </style>
 </head>
 
@@ -83,45 +83,33 @@
             <div class="version">v3.0</div>
         </div>
         <div class="content">
-            <div class="info">Welcome to Carmel Ministries, an app of Carmel Christian Assembly to deliver all the
+            <div class="info">Carmel Ministries App delivers all the
                 latest
-                information about the Services, Prayer meetings and Special Events.</div>
+                information about the Services, Prayer meetings and Special Events in an organised and user-friendly
+                way.</div>
         </div>
         <div class="content">
             <div class="heading">Privacy Policy</div>
             <div class="pp">
-                <div class="sub-heading">Content Shown</div>
-                <div class="info">Carmel Ministries App contains two types of content.
-                    <ul>
-                        <li>Dynamically Changing Content - Data stored in the cloud and managed by cloud admin, who
-                            only
-                            have the access to perform create, update and delete operation through the app or cloud
-                            console.
-                            Ex: The Post Widget and Weekly Events Calender Widget in the Homepage of the app.</li>
-                        <li>Static Content - Data stored inside the app, only gets a change in a update if needed. Ex:
-                            The
-                            Carmel Page in the app.</li>
-                    </ul>
-                </div>
-                <div class="sub-heading">Data Privacy</div>
-                <div class="info">Feedback is submitted only if the user manually wishes to submit (not mandatory)
+                <div class="info">
+                    <b>No data is taken or stored with or without the knowledge of the user.</b>
+                    <br><br>
+                    User Preferences like dark mode toggle and notifications toggle status are stored on-device only.
+                    <br><br>
+                    Feedbacks are stored only if the user manually submits (but not mandatory)
                     through
-                    the app that help us to improve the quality of the app.
-                    <br><br>
-                    Other than that no data is taken or stored with or without the knowledge of the user. <b>The App is
-                        simply a tool that serves the purpose of displaying the Information about Carmel Ministries to
-                        everyone.</b>
-                    <br><br>
-                    User Preferences like dark mode, notifications button status are stored on-device only.
+                    the app that help us to improve the quality of the app. It will be deleted after a period of time.
                 </div>
                 <br>
                 Thank you for using Carmel Ministries App. Share it with your friends and families.
+                <br><br>
+                <div id="update-info">Last updated on Aug 2024</div>
             </div>
         </div>
         <div id="contact-info">
-            Last updated on Aug 2024 |
-            <a href="https://carmelministries.in">Carmel Ministries - Website</a> |
-            <a href="mailto:danielraj434@gmail.com">Email - Developer</a>
+            Carmel Ministries |
+            <a href="https://carmelministries.in">Website</a> |
+            <a href="mailto:danielraj434@gmail.com">Email - Developer</a><br>
         </div>
     </div>
 </body>
